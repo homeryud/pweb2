@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.p-panjang {
+  line-height: 32px;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.playfair-display-light {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.playfair-display-medium {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-bold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.list-hero::marker {
+  color: #A94A34;
+}
+
+.list-hero {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: small;
+}
+
+.text-hero {
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 6px 0;
+}
+
+.highlight {
+  color: #A94A34;
+}
+
+.title-head {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.teks-jeda::first-letter {
+  font-family: 'Playfair Display', serif;
+  color: #A94A34;
+  font-size: 4.5em;
+  float: left;
+  margin-right: 8px;
+  margin-top: -4px;
+  line-height: 0.8;
+}
+
+#hero,
+#catatan,
+#contoh,
+#laboratorium,
+#penutup,
+#footer {
+  width: 100vw;
+}
+
+#penutup {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+#kutipan {
+  width: 100vw;
+  position: relative;
+  background-color: #293e32;
+  color: #bdceb6;
+}
+
+#navbar {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+
+  #catatan {
+    width: 1200px;
+    margin: 50px auto;
+  }
+
+  #contoh {
+    width: 1200px;
+    margin: 50px auto;
+  }
+
+  #laboratorium {
+    width: 1400px;
+    margin: 50px auto;
+  }
+
+  #penutup {
+    width: 1200px;
+    margin: 50px auto;
+  }
+
+  #footer {
+    width: 1200px;
+    margin: 50px auto;
+  }
+
+  #kutipan {
+    width: 100vw;
+    margin: 50px auto;
+  }
+
+  #navbar {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.label-sm {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+  #hero, #catatan, #contoh, #laboratorium, #penutup, #footer, #kutipan {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  h1.playfair-display-bold {
+    font-size: 48px !important;
+  }
+
+  table, tr, td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .col-7, .col-4, .col-5 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100%;
+  }
+
+  [style*="width: 1200px"],
+  [style*="width: 1400px"] {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
