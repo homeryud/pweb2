@@ -72,7 +72,7 @@ html {
 }
 
 .list-hero::marker {
-  color: #A94A34;
+  color: #3f7a4a;
 }
 
 .list-hero {
@@ -88,7 +88,7 @@ html {
 }
 
 .highlight {
-  color: #A94A34;
+  color: #3f7a4a;
 }
 
 .title-head {
@@ -100,7 +100,7 @@ html {
 
 .teks-jeda::first-letter {
   font-family: 'Playfair Display', serif;
-  color: #A94A34;
+  color: #3f7a4a;
   font-size: 4.5em;
   float: left;
   margin-right: 8px;
@@ -133,8 +133,8 @@ html {
 #kutipan {
   width: 100vw;
   position: relative;
-  background-color: #293e32;
-  color: #bdceb6;
+  background-color: #1f3d2b;
+  color: #d7e8db;
 }
 
 #navbar {
